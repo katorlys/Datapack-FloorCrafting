@@ -1,0 +1,1 @@
+execute as @e[type=item,nbt={Item:{id:"minecraft:item_frame"}}] at @s if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:glass",Count:8b}}] run function invisible:invisible_item_frame
